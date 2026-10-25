@@ -30,9 +30,9 @@ git commit -m "작성하고 싶은 커밋 메세지"</code></pre>
 1. PR을 보내려하는 repo를 ```fork```합니다.
 2. ```git clone https://github.com/본인githubusername/레포이름.git``` 입력
 3. ```clone```된 폴더에 들어간 후, 코드를 수정합니다.
-4. <pre><code>git switch -c 새로만들branch이름  
-git add .  
-git commit -m "작성하고 싶은 커밋 메세지"  
+4. <pre><code>git switch -c 새로만들branch이름
+git add .
+git commit -m "작성하고 싶은 커밋 메세지"
 git push origin 아까만든branch이름
 </code></pre>
 5. Github에서 해당 레포에 접속 후, ```Compare & Pull Request``` 버튼을 클릭합니다.
